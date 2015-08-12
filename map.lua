@@ -48,7 +48,7 @@ function Map.create( level, section )
 ]]
 
 	--temporary check
-	self:loadMap(32,32,'Assets/IMG/Tiles/countryside.png',quadInfo,mapString)
+	self:loadMap(32,32,'Assets/IMG/Tilesets/countryside.png',quadInfo,mapString)
 
 	return self
 end

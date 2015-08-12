@@ -43,8 +43,11 @@ end
 
 function inGame.draw()
 	lg.push()
-		lg.print("LEVEL:"..map.level.." SECTION:"..section, 400, 300)
-		--map:draw()
+		
+    --lg.print("LEVEL:"..map.level.." SECTION:"..section, 400, 300) --debugging
+    
+    --Draws the current loaded map
+		map:draw()
 	lg.pop()
 end
 
