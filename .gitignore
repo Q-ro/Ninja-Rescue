@@ -1,2 +1,7 @@
 .git
+
+#Testing files
 test*
+
+#Reference images
+IMG/references
