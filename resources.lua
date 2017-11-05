@@ -9,6 +9,9 @@ local lg = love.graphics
 
 -- Global fonts
 font={}
+sfx={
+	["confirm"] = love.audio.newSource("Assets/SFX/215567__fatbuttlarry__startup.ogg"),
+}
 
 --- Load all resources including images, quads sound effects etc.
 function loadResources()
@@ -30,7 +33,7 @@ end
 --- Plays a SFX
 -- @name: name of the file
 function playSound(name)
-	love.audio.play(snd[name])
+	love.audio.play(sfx[name])
 end
 
 --- Plays a song

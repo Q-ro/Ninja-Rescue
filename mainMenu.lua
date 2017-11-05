@@ -66,7 +66,7 @@ function mainMenu.keypressed(k, uni)
 		
 		---TODO: Add the sound effect
 		--Play a sound effect
-		--playSound("confirm")
+		playSound("confirm")
 
 	-- on scape close the game
 	elseif k == "escape" then
