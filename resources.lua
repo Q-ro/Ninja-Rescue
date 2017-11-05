@@ -10,7 +10,7 @@ local lg = love.graphics
 -- Global fonts
 font={}
 sfx={
-	["confirm"] = love.audio.newSource("Assets/SFX/Conform_coolsound.ogg"),
+	["confirm"] = love.audio.newSource("Assets/SFX/Confirm_coolsound.ogg"),
 }
 
 --- Load all resources including images, quads sound effects etc.
