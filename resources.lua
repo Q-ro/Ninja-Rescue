@@ -9,6 +9,8 @@ local lg = love.graphics
 
 -- Global fonts
 font={}
+
+-- Global SFX
 sfx={
 	["confirm"] = love.audio.newSource("Assets/SFX/Confirm_coolsound.ogg"),
 }
